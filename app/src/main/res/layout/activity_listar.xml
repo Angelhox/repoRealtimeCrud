@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191615"
+    tools:context=".listarActivity">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+
+            android:minHeight="?attr/actionBarSize"
+            android:background="#9F0F40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvListaProductos"
+            android:layout_width="match_parent"
+            android:layout_height="250pt"
+            android:layout_marginTop="30pt"
+            android:layout_marginBottom="5pt"/>
+
+
+        <Button
+            android:id="@+id/btnRegresarLista"
+            android:background="@drawable/button_rounded"
+            android:layout_width="120pt"
+            android:layout_height="20pt"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="25pt"
+
+            android:layout_marginBottom="33dp"
+
+            android:text="Regresar" />
+
+
+</RelativeLayout>

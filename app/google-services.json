@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "769109629272",
+    "firebase_url": "https://realtimework-65c57-default-rtdb.firebaseio.com",
+    "project_id": "realtimework-65c57",
+    "storage_bucket": "realtimework-65c57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769109629272:android:8f1aa169f91c55f476ed2d",
+        "android_client_info": {
+          "package_name": "com.example.realtimework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769109629272-0eid7ev41juhfc9brr9hv64tsqm8smfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.realtimework",
+            "certificate_hash": "1ae9c4cacea4424390775e35d30f34d18267daa6"
+          }
+        },
+        {
+          "client_id": "769109629272-parp7d8hg1j1st5ecsel3dai01i13mno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsMWS0HjWyeehGTGFtJNlsgK_SI2dLeIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769109629272-parp7d8hg1j1st5ecsel3dai01i13mno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

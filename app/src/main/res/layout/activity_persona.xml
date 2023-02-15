@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".personaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/trans"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/etCedula"
+            android:layout_width="150pt"
+            android:layout_height="20pt"
+            android:hint=" Mi cedula"
+            android:textAlignment="center"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="150pt"
+            android:layout_height="20pt"
+            android:layout_marginTop="5pt"
+            android:layout_marginBottom="5pt"
+            android:hint=" Mi nombre"
+            android:textAlignment="center"
+            android:inputType="text"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbMasculino"
+                android:layout_width="88pt"
+                android:layout_marginLeft="12pt"
+                android:layout_height="wrap_content"
+                
+                android:text="Masculino" />
+
+            <RadioButton
+
+                android:id="@+id/rbFemenino"
+                android:layout_width="88pt"
+                android:layout_height="wrap_content"
+                
+                android:text="Femenino" />
+        </RadioGroup>
+        <Spinner
+            android:id="@+id/spnPais"
+            android:layout_width="150pt"
+            android:layout_height="20pt"
+            android:background="@drawable/spinner_round"
+            android:dropDownSelector="@color/white"
+            android:popupBackground="@drawable/spinner_round"
+            android:layout_marginVertical="5pt"/>
+
+
+        <EditText
+            android:id="@+id/etProvincia"
+            android:layout_width="150pt"
+            android:layout_height="20pt"
+            android:hint=" Mi província"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <TextView
+                android:id="@+id/tvCorreo"
+                android:layout_width="150pt"
+                android:layout_height="15pt"
+                android:layout_marginTop="5pt"
+                android:hint="usaermail@domain.com"
+                android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/tvId"
+            android:layout_width="150pt"
+            android:layout_height="15pt"
+            android:layout_marginTop="5pt"
+            android:visibility="gone"
+            android:hint="id"
+            android:textAlignment="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/btnActualizar"
+                android:layout_width="60pt"
+                android:layout_height="20pt"
+                android:layout_marginVertical="5pt"
+
+                android:background="@drawable/button_rounded"
+                android:layout_marginLeft="10pt"
+                android:text="Actualizar"/>
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="60pt"
+                android:layout_height="20pt"
+                android:layout_marginVertical="5pt"
+                android:layout_marginLeft="35pt"
+                android:background="@drawable/button_rounded"
+
+                android:text="Salir" />
+        </LinearLayout>
+        
+    
+    
+    
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
